@@ -16,7 +16,7 @@ module.exports = {
         filename: './bundle.js'
     },
     module: {
-        loaders:[
+        loaders: [
             {
                 test: /\.js[x]?$/,
                 exclude: /node_modules/,
@@ -33,7 +33,7 @@ module.exports = {
             }, {
                 test: /\.(png|jpg|svg)$/,
                 loader: 'url?limit=25000'
-            },{
+            }, {
                 test: /\.json$/,
                 loader: 'json'
             }
